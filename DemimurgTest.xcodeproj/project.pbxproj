@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5790EC252BFCB899000A8F0D /* DemimurgTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790EC242BFCB899000A8F0D /* DemimurgTestApp.swift */; };
-		5790EC272BFCB899000A8F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790EC262BFCB899000A8F0D /* ContentView.swift */; };
 		5790EC292BFCB89B000A8F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5790EC282BFCB89B000A8F0D /* Assets.xcassets */; };
 		5790EC2C2BFCB89B000A8F0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5790EC2B2BFCB89B000A8F0D /* Preview Assets.xcassets */; };
 		5790EC362BFCB89B000A8F0D /* DemimurgTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790EC352BFCB89B000A8F0D /* DemimurgTestTests.swift */; };
 		5790EC402BFCB89B000A8F0D /* DemimurgTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790EC3F2BFCB89B000A8F0D /* DemimurgTestUITests.swift */; };
 		5790EC422BFCB89B000A8F0D /* DemimurgTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790EC412BFCB89B000A8F0D /* DemimurgTestUITestsLaunchTests.swift */; };
+		5790EC4F2BFCB8B3000A8F0D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790EC4E2BFCB8B3000A8F0D /* MainViewModel.swift */; };
+		5790EC512BFCB8C4000A8F0D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790EC502BFCB8C4000A8F0D /* MainView.swift */; };
+		5790EC532BFCB95D000A8F0D /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790EC522BFCB95D000A8F0D /* MainModel.swift */; };
+		5790EC552BFCC02B000A8F0D /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790EC542BFCC02B000A8F0D /* CellView.swift */; };
+		5790EC572BFCC284000A8F0D /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790EC562BFCC284000A8F0D /* Resources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		5790EC212BFCB899000A8F0D /* DemimurgTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemimurgTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5790EC242BFCB899000A8F0D /* DemimurgTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemimurgTestApp.swift; sourceTree = "<group>"; };
-		5790EC262BFCB899000A8F0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5790EC282BFCB89B000A8F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5790EC2B2BFCB89B000A8F0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5790EC312BFCB89B000A8F0D /* DemimurgTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemimurgTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,14 @@
 		5790EC3B2BFCB89B000A8F0D /* DemimurgTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemimurgTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5790EC3F2BFCB89B000A8F0D /* DemimurgTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemimurgTestUITests.swift; sourceTree = "<group>"; };
 		5790EC412BFCB89B000A8F0D /* DemimurgTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemimurgTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5790EC4E2BFCB8B3000A8F0D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		5790EC502BFCB8C4000A8F0D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5790EC522BFCB95D000A8F0D /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		5790EC542BFCC02B000A8F0D /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		5790EC562BFCC284000A8F0D /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		5790EC592BFCC626000A8F0D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		5790EC5A2BFCC62E000A8F0D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		5790EC5B2BFCC6E6000A8F0D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +105,12 @@
 		5790EC232BFCB899000A8F0D /* DemimurgTest */ = {
 			isa = PBXGroup;
 			children = (
+				5790EC5C2BFCD121000A8F0D /* MainModule */,
+				5790EC582BFCC614000A8F0D /* Fonts */,
 				5790EC242BFCB899000A8F0D /* DemimurgTestApp.swift */,
-				5790EC262BFCB899000A8F0D /* ContentView.swift */,
 				5790EC282BFCB89B000A8F0D /* Assets.xcassets */,
 				5790EC2A2BFCB89B000A8F0D /* Preview Content */,
+				5790EC562BFCC284000A8F0D /* Resources.swift */,
 			);
 			path = DemimurgTest;
 			sourceTree = "<group>";
@@ -125,6 +138,59 @@
 				5790EC412BFCB89B000A8F0D /* DemimurgTestUITestsLaunchTests.swift */,
 			);
 			path = DemimurgTestUITests;
+			sourceTree = "<group>";
+		};
+		5790EC582BFCC614000A8F0D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5790EC5B2BFCC6E6000A8F0D /* Roboto-Medium.ttf */,
+				5790EC5A2BFCC62E000A8F0D /* Roboto-Regular.ttf */,
+				5790EC592BFCC626000A8F0D /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5790EC5C2BFCD121000A8F0D /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				5790EC5F2BFCD137000A8F0D /* Model */,
+				5790EC5E2BFCD132000A8F0D /* ViewModel */,
+				5790EC5D2BFCD12E000A8F0D /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		5790EC5D2BFCD12E000A8F0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5790EC502BFCB8C4000A8F0D /* MainView.swift */,
+				5790EC602BFCD145000A8F0D /* AdditionalViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5790EC5E2BFCD132000A8F0D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5790EC4E2BFCB8B3000A8F0D /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5790EC5F2BFCD137000A8F0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5790EC522BFCB95D000A8F0D /* MainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5790EC602BFCD145000A8F0D /* AdditionalViews */ = {
+			isa = PBXGroup;
+			children = (
+				5790EC542BFCC02B000A8F0D /* CellView.swift */,
+			);
+			path = AdditionalViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5790EC272BFCB899000A8F0D /* ContentView.swift in Sources */,
+				5790EC512BFCB8C4000A8F0D /* MainView.swift in Sources */,
+				5790EC552BFCC02B000A8F0D /* CellView.swift in Sources */,
 				5790EC252BFCB899000A8F0D /* DemimurgTestApp.swift in Sources */,
+				5790EC572BFCC284000A8F0D /* Resources.swift in Sources */,
+				5790EC4F2BFCB8B3000A8F0D /* MainViewModel.swift in Sources */,
+				5790EC532BFCB95D000A8F0D /* MainModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
